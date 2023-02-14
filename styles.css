@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #ffd400;
+}
+  
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ededed;
+    box-shadow: 5px 5px 20px #707070, -5px -5px 20px #707070;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+  
+h1 {
+    font-size: 40px;
+    font-weight: 780;
+    text-align: center;
+    margin-bottom: -3px;
+    color: #34495e;
+    letter-spacing: -2px;
+}
+  
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #34495e;
+  }
+  
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+  
+label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #34495e;
+}
+  
+input {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 29px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #c4c4c4, -10px -10px 30px #ffffff;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 100px;
+    max-height: 100px;
+    align-content: center;
+    border-color: #000000;
+    border-width: 6px;
+    border-style: solid;
+    background: #ffd400;
+}
+  
+button[type="submit"] {
+    font-size: 1.2rem;
+    background-color: #52adeb;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+  
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+  
+.clock-container {
+    display: block;
+    line-height: 15px;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    justify-content: center;
+}
+  
+.clock-container h2 {
+    font-size: 32px;
+    color: #34495e;
+}
+  
+  footer {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 30px;
+    color: #34495e;
+}
+  
+#current-year {
+    font-weight: bold;
+    color: #ff5722;
+}
+  

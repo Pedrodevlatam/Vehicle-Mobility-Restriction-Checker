@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vehicle Mobility Restriction Checker</title>
+    
+  <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+  <div class="container">
+    <h1>Vehicle Mobility Restriction Checker</h1>
+    <h2>Bogotá,Colombia</h2>
+    <form id="license-plate-form">
+      <label for="license-plate-input">Enter the last digit of your vehicle's license plate number:</label>
+      <input id="license-plate-input" type="number" min="0" max="9" required>
+      <button type="submit">Check</button>
+    </form>
+    <div class="clock-container">
+        <h2 id="clock"></h2>
+        <h2 id="date"></h2>
+    </div>
+    <footer>
+      <p>All rights reserved Pedro Mendieta JAVASCRIPT LANGUAGE CSE 121B &copy; <span id="current-year"></span></p>
+    </footer>
+  </div>
+  <script type="module" src="main.js"></script>
+ </body>
+</html>
